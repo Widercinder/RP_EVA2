@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA2_1_IF"/>
+        <attribute name="authors" value="alberto soto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-21 06:35:42 p. m."/>
+        <attribute name="created" value="YWxiZXJ0byBzb3RvO0xBUFRPUC05U1IzRUFPRDsyMDI2LTA5LTIxOzA1OjU3OjUyIHAuIG0uOzM3NzE="/>
+        <attribute name="edited" value="YWxiZXJ0byBzb3RvO0xBUFRPUC05U1IzRUFPRDsyMDI2LTA5LTIxOzA2OjM1OjQyIHAuIG0uOzE7Mzg3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <output expression="&quot;Cual es tu edad?&quot;" newline="True"/>
+            <input variable="edad"/>
+            <if expression="edad &gt;= 18">
+                <then>
+                    <output expression="&quot;PUEDES ENTRAAR&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;NO PUEDES ENTRAR&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
